@@ -1,0 +1,26 @@
+.ui.bulleted.list {
+    margin-left: 2em !important;
+}
+
+#side-menu {
+    height: 100%;
+}
+
+#content {
+    margin-left: 160px;
+    max-width: 70%;
+}
+
+#main {
+    margin-top: 20px;
+}
+
+#main > div {
+    display: none;
+    min-height: 60vh;
+    padding-bottom: 60px;
+}
+
+#footer {
+    margin: 20px 0;
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Bitcoin Live Trading 1.0 Documentation</title>
+    <link rel="stylesheet" href="assets/semantic/semantic.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<div id="side-menu" class="ui left vertical inverted fixed labeled icon menu">
+    <a class="active item" data-section="intro">
+        <i class="home icon"></i>
+        Home
+    </a>
+    <a class="item" data-section="configuration">
+        <i class="edit icon"></i>
+        Configuration
+    </a>
+    <a class="item" data-section="upload">
+        <i class="upload icon"></i>
+        Upload
+    </a>
+    <a class="item" data-section="contributes">
+        <i class="hand peace icon"></i>
+        Contributes
+    </a>
+    <a class="item" data-section="change-log">
+        <i class="file archive outline icon"></i>
+        Change Log
+    </a>
+    <a class="item" data-section="support">
+        <i class="help circle icon"></i>
+        Support
+    </a>
+</div>
+<div id="content">
+    <div class="ui basic segment">
+        <div class="ui icon message">
+            <i class="file text icon"></i>
+            <div class="content">
+                <div class="header">Bitcoin Live Trading 1.0</div>
+                <p>Documentation By <a class="ui link" target="_blank" href="https://codecanyon.net/user/runcoders">RunCoders</a> </p>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="ui basic segment">
+
+        <div id="intro">
+            <h1 class="ui header">Bitcoin Live Trading</h1>
+            <p>Bitcoin Live Trading is a PHP/JS script for sharing Bitcoin exchange trades on real-time.</p>
+            <p>Your visitors will love to see latest bitcoin price with this great script.</p>
+
+            <br>
+            <div class="ui statistic">
+                <div class="label">
+                    Available Exchanges
+                </div>
+                <div class="value">
+                    3
+                </div>
+            </div>
+
+
+            <h3 class="ui header">Please get started with the following steps:</h3>
+            <br>
+            <div id="steps-cards" class="ui raised stackable three cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Configuration</div>
+                        <div class="description">
+                            Before you can use this script you need to configure some options.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="configuration">
+                        <i class="edit icon"></i>
+                        Configuration
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Upload</div>
+                        <div class="description">
+                            After the configuration, you can upload it.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="upload">
+                        <i class="upload icon"></i>
+                        Upload
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Contributes</div>
+                        <div class="description">
+                            List of frameworks/APIs used.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="contributes">
+                        <i class="hand peace icon"></i>
+                        Contributes
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Change Log</div>
+                        <div class="description">
+                            Updates change log.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="change-log">
+                        <i class="file archive outline icon"></i>
+                        Change Log
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">Support</div>
+                        <div class="description">
+                            If you need help, just send us a message.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="support">
+                        <i class="help circle icon"></i>
+                        Support
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div id="upload">
+            <h1 class="ui header">Upload</h1>
+            <div class="ui basic segment">
+                <h4 class="ui header">From cPanel</h4>
+                <div class="ui bulleted list">
+                    <div class="item">Zip <strong>bitcoin_live_trading</strong> to create bitcoin_live_trading.zip package.</div>
+                    <div class="item">Open your web hosting cPanel account.</div>
+                    <div class="item">Open <strong>File Manager</strong>.</div>
+                    <div class="item">Navigate to your <strong>public directory</strong> (e.g public_html).</div>
+                    <div class="item">Click on <strong>Upload</strong> button and choose <strong>bitcoin_live_trading.zip</strong>.</div>
+                    <div class="item"><strong>Go back</strong> to public directory.</div>
+                    <div class="item">Select the <strong>bitcoin_live_trading.zip</strong> package and <strong>extract</strong> it to public directory.</div>
+                    <div class="item">Select all bitcoin_live_trading folder <strong>content</strong> and move it to public directory.</div>
+                </div>
+
+                <h4 class="ui header">From FTP</h4>
+                <div class="ui bulleted list">
+                    <div class="item">Connect to your FTP server.</div>
+                    <div class="item">Navigate to your <strong>public directory</strong> (e.g public_html).</div>
+                    <div class="item">Upload the <strong>bitcoin_live_trading</strong> folder <strong>content</strong> to public directory.</div>
+                </div>
+            </div>
+
+        </div>
+        <div id="configuration">
+            <h1 class="ui header">Configuration</h1>
+            <div class="ui basic segment">
+                <p>Open <strong>index.php</strong> file and you will find on top of the file the following options.</p>
+                <h3>SEO</h3>
+                <span>First set your Search Engine Optimisation options:</span>
+                <div class="ui bulleted list">
+                    <div class="item"><strong>Name</strong>: Display name</div>
+                    <div class="item"><strong>Title</strong>: Website title</div>
+                    <div class="item"><strong>Description</strong>: Website description</div>
+                    <div class="item"><strong>Keyword</strong>: Search related keywords</div>
+                    <div class="item"><strong>SEO image</strong>: Social media image location (should have full URL)</div>
+                </div>
+
+                <div class="ui divider"></div>
+
+                <h3>Branding</h3>
+                <span>Configure your website branding images:</span>
+                <div class="ui bulleted list">
+                    <div class="item"><strong>Logo</strong>: Website logo location</div>
+                    <div class="item"><strong>Favicon</strong>: Favicon image location</div>
+                </div>
+
+
+                <div class="ui divider"></div>
+
+
+                <h3>Theme Color</h3>
+                <p>Choose your theme color, this will affect every visual elements</p>
+                <span>Available themes:</span>
+                <div class="ui bulleted list">
+                    <div class="item">red</div>
+                    <div class="item">purple</div>
+                    <div class="item">deep-purple</div>
+                    <div class="item">indigo</div>
+                    <div class="item">blue</div>
+                    <div class="item">light-blue</div>
+                    <div class="item">teal</div>
+                    <div class="item">green</div>
+                    <div class="item">orange</div>
+                    <div class="item">deep-orange</div>
+                    <div class="item">brown</div>
+                    <div class="item">blue-grey</div>
+                </div>
+
+                <div class="ui divider"></div>
+
+                <h3>Donation</h3>
+                <span>Configure your donation addresses. Any currency is support as Name/Address.</span>
+
+                <div class="ui divider"></div>
+
+
+                <h3>HTML/Content</h3>
+                <p>Bitcoin Live Trading is using <a target="_blank" href="http://materializecss.com/" class="ui pink label">Materialize</a> framework.</p>
+                <p>All text content and links can be changed directly on the page HTML code.</p>
+                <p>Find the section and replace with your own content.</p>
+                <h4>Some sections</h4>
+                <div class="ui selection divided list">
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">top-nav</span></div>Top navigation links.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">side-nav</span></div>Side navigation links for small screens.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">custom-1</span></div>Custom HTML/Ads #1.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">live-stats</span></div>Latest price and percentage change.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">live-options</span></div>Options form.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">live-trades</span></div>Last trades table.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">rates</span></div>Rates search & output.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">custom-2</span></div>Custom HTML/Ads #2.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">footer</span></div>Footer links, website description & copyrights.</div>
+                    <div class="item"><div class="ui blue horizontal label">ID <span class="detail">donate-modal</span></div>Donation modal.</div>
+                </div>
+            </div>
+        </div>
+        <div id="contributes">
+            <h1 class="ui header">Contributes</h1>
+            <p>Bitcoin Live Trading is using the following frameworks/APIs:</p>
+            <div class="ui list">
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="http://materializecss.com/">
+                        <i class="external icon"></i> Materialize 0.100.0
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="https://jquery.com/">
+                        <i class="external icon"></i> jQuery 3.2.1
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="https://bitfinex.readme.io/v2/docs">
+                        <i class="external icon"></i> Bitfinex API
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="https://www.bitstamp.net/api/">
+                        <i class="external icon"></i> Bitstamp API
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="https://docs.gdax.com/">
+                        <i class="external icon"></i> GDAX API
+                    </a>
+                </div>
+            </div>
+            <p>Thanks to all that contribute for the development of these technologies.</p>
+        </div>
+        <div id="change-log">
+            <h1 class="ui header">Change Log</h1>
+            <div class="ui list">
+                <div class="item">
+                    <div class="header"><div class="ui teal label">Bitcoin Live Trading 1.0<div class="detail">2017/08/16</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">Material Design</div>
+                        <div class="item">Search Engine Optimisation</div>
+                        <div class="item">3 Exchanges</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="support">
+            <h1 class="ui header">Help Support</h1>
+            <p>If you need help with the setup/usage of this software, please contact us:</p>
+            <div class="ui  list">
+                <a class="item" href="mailto:runcoders@gmail.com">
+                    <i class="mail icon"></i>
+                    runcoders@gmail.com
+                </a>
+                <a class="item" target="_blank" href="https://runcoders.com/">
+                    <i class="external icon"></i>
+                    RunCoders
+                </a>
+                <a class="item" target="_blank" href="https://codecanyon.net/user/runcoders">
+                    <i class="external icon"></i>
+                    RunCoders (CodeCanyon)
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ui basic segment">
+        <a class="ui large orange label" target="_blank" href="https://codecanyon.net/user/runcoders">
+            &copy 2017 RunCoders
+        </a>
+    </div>
+</div>
+<script src="assets/jquery.min.js"></script>
+<script src="assets/semantic/semantic.min.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
